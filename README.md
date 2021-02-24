@@ -13,3 +13,11 @@ SOLID es un acrónimo inventado por Robert C.Martin para establecer los cinco pr
 * Una clase = Un concepto y responsabilidad
 * Una clase debería tener sólo 1 razón para cambiar
 * Clases pequeñas con objetivos acotados
+
+## Principio de Abierto/Cerrado
+
+* El Software debería estar abierto a extensión y cerrado a modificación.
+* Evitando depender de implementaciones específicas, haciendo uso de clases abstractas o interfaces.
+* Facilidad para añadir nuevos Casos de uso en nuestra aplicación.
+* Interface -> Cuando desacoplemos entre capas.
+* Abstract -> En determinados casos para modelos de dominio.
