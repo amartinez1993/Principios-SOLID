@@ -31,5 +31,11 @@ SOLID es un acrónimo inventado por Robert C.Martin para establecer los cinco pr
 ## Principio de segregación de interfaces
 
 * Ningún cliente debería verse forzado a depender de métodos que no usa.
-* Definir contratos de interfaces basándonos en los clientes que las usan y no en las implementaciones que pudiéramos tener (Las interfaces pertenecen a los clientes).
-* Alta cohesión y bajo acoplamiento estructural
+* Definir contratos de interfaces basándonos en los clientes que las usan y no en las implementaciones que pudiéramos tener (**Las interfaces pertenecen a los clientes**).
+* Alta cohesión y bajo acoplamiento estructural.
+
+## Principio de inversión de dependencias
+
+* Las clases de alto nivel no deberían depender de las clases de bajo nivel. **Ambas deberían depender de las abstracciones.**
+* Inyectar dependencias (parámetros recibidos en constructor).
+* Depender de las interfaces (contratos) de estas dependencias y no de implementaciones concretas.
