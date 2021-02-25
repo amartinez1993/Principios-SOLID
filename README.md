@@ -21,3 +21,9 @@ SOLID es un acrónimo inventado por Robert C.Martin para establecer los cinco pr
 * Facilidad para añadir nuevos Casos de uso en nuestra aplicación.
 * Interface -> Cuando desacoplemos entre capas.
 * Abstract -> En determinados casos para modelos de dominio.
+
+## Principio de sustitución de Liskov
+
+* Si S es un subtipo de T, instancias de T deberían poderse sustituir por instancias de S sin alterar las propiedades del programa.
+* Las subclases tienen que respetar el contrato definido en la clase padre.
+* Ayuda a que se cumpla OCP (Abierto a extensión y cerrado a modificación).
