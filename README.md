@@ -27,3 +27,9 @@ SOLID es un acrónimo inventado por Robert C.Martin para establecer los cinco pr
 * Si S es un subtipo de T, instancias de T deberían poderse sustituir por instancias de S sin alterar las propiedades del programa.
 * Las subclases tienen que respetar el contrato definido en la clase padre.
 * Ayuda a que se cumpla OCP (Abierto a extensión y cerrado a modificación).
+
+## Principio de segregación de interfaces
+
+* Ningún cliente debería verse forzado a depender de métodos que no usa.
+* Definir contratos de interfaces basándonos en los clientes que las usan y no en las implementaciones que pudiéramos tener (Las interfaces pertenecen a los clientes).
+* Alta cohesión y bajo acoplamiento estructural
